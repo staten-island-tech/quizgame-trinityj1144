@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"1cI1L":[function(require,module,exports) {
+})({"7GSM3":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 61885;
+var HMR_PORT = 63425;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "062e9a7565ca912a5f7d6b832142d36c";
@@ -443,6 +443,12 @@ id) /*: string*/
 
 },{}],"3L8AI":[function(require,module,exports) {
 console.log ("Connected");
-},{}]},["1cI1L","3L8AI"], "3L8AI", "parcelRequire9324")
+
+const questions = [
+    {
+        questionContent: ""
+    }
+]
+},{}]},["7GSM3","3L8AI"], "3L8AI", "parcelRequire9324")
 
 //# sourceMappingURL=index.2142d36c.js.map

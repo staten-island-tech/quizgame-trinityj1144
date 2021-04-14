@@ -1,1 +1,86 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+/* @import url {' font url ' } */
+body {
+  background-color: #141211;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  /* font-family: */
+}
+
+h1 {
+  font-size: 5.4rem;
+  color: #fff;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-size: 4.2rem;
+  margin-bottom: 4rem;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.flex-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.btn {
+  font-size: 2.4rem;
+  padding: 2rem 0;
+  background-color: #2d54ff;
+  width: 20rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #000;
+}
+
+.btn:hover {
+  cursor: pointer;
+  -webkit-box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+          box-shadow: 0 0.4rem 1.4rem 0 rgba(8, 114, 244, 0.6);
+  -webkit-transition: -webkit-transform 150ms;
+  transition: -webkit-transform 150ms;
+  transition: transform 150ms;
+  transition: transform 150ms, -webkit-transform 150ms;
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+/*# sourceMappingURL=main.css.map */
