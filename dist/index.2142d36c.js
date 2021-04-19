@@ -140,9 +140,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"7GSM3":[function(require,module,exports) {
+})({"21Fw2":[function(require,module,exports) {
 var HMR_HOST = null;
-var HMR_PORT = 63425;
+var HMR_PORT = 64471;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d751713988987e9331980363e24189ce";
 module.bundle.HMR_BUNDLE_ID = "062e9a7565ca912a5f7d6b832142d36c";
@@ -442,13 +442,7 @@ id) /*: string*/
 }
 
 },{}],"3L8AI":[function(require,module,exports) {
-console.log ("Connected");
-
-const questions = [
-    {
-        questionContent: ""
-    }
-]
-},{}]},["7GSM3","3L8AI"], "3L8AI", "parcelRequire9324")
+// import {questions} from "./game";
+},{}]},["21Fw2","3L8AI"], "3L8AI", "parcelRequire9324")
 
 //# sourceMappingURL=index.2142d36c.js.map

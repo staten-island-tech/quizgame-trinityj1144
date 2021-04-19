@@ -1,7 +1,1 @@
-console.log ("Connected");
-
-const questions = [
-    {
-        questionContent: ""
-    }
-]
+// import {questions} from "./game";
